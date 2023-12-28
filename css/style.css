@@ -162,7 +162,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav {
-  padding-left: 18%;
+  padding-left: 2%;
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
@@ -368,6 +368,10 @@ a:focus {
 }
 
 .slider_section .img-box img {
+  width: 100%;
+}
+
+.slider_section .img-box-redes img {
   width: 100%;
 }
 
@@ -602,7 +606,7 @@ a:focus {
 .food_section .btn-box a {
   display: inline-block;
   padding: 10px 55px;
-  background-color: #ffbe33;
+  background-color: #e67700;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -611,7 +615,7 @@ a:focus {
 }
 
 .food_section .btn-box a:hover {
-  background-color: #e69c00;
+  background-color: #e67700;
 }
 
 .about_section {
