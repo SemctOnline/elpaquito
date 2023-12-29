@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!-- Basic -->
   <meta charset="utf-8" />
@@ -41,7 +42,7 @@
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <span>
               <img src="images/Paquito-logo-blanco_2.png">
             </span>
@@ -49,23 +50,22 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class=""> </span>
           </button>
-
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Encuentra tu bar</a>
+            <li class="nav-item">
+                <a class="nav-link" href="index.php">Encuentra tu bar</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="menu.html">Recetas de Paquito</a>
+                <a class="nav-link" href="recetas.php">Recetas de Paquito</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="barpaquito.php">¿Quieres ofrecer el Paquito en tu bar?</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="about.html">¿Quieres ofrecer el Paquito en tu bar?</a>
+                <a class="nav-link" href="redes-sociales.php">El Paquito en Redes Sociales</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="book.html">El Paquito en Redes Sociales</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="book.html">Sobre nosotros</a>
+                <a class="nav-link" href="nosotros.php">Sobre nosotros</a>
               </li>
             </ul>
             <div class="user_option">
@@ -82,79 +82,66 @@
     <!-- end header section -->
   </div>
 
-  <!-- about section -->
-
-  <section class="about_section layout_padding">
-    <div class="container  ">
-
-      <div class="row">
-        <div class="col-md-6 ">
-          <div class="img-box">
-            <img src="images/about-img.png" alt="">
+  <!-- book section -->
+  <section class="food_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Redes Sociales
+        </h2>
+      </div>
+      <div class="filters-content">
+        <div class="row grid">
+          <div class="col-sm-6 col-lg-4 all">
+            <div class="box">
+              <div>
+                <div class="img-box-redes">
+                  <img src="images/by-duulcedeleche.jpg" alt="">
+                </div>
+                </div>
+              </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                We Are Feane
-              </h2>
+          <div class="col-sm-6 col-lg-4 all">
+            <div class="box">
+              <div>
+                <div class="img-box-redes">
+                  <img src="images/by-elena-vidal.jpg" alt="">
+                </div>
+              </div>
             </div>
-            <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-              the middle of text. All
-            </p>
-            <a href="">
-              Read More
-            </a>
-          </div>
+            </div>
+          <div class="col-sm-6 col-lg-4 all">
+            <div class="box">
+              <div>
+                <div class="img-box-redes">
+                  <img src="images/by-kikillovlogs.jpg" alt="">
+                </div>
+              </div>
+              </div>
+            </div>
         </div>
+      </div>
+      <div class="btn-box">
+        <a href="">
+          Ver mas
+        </a>
       </div>
     </div>
   </section>
 
-  <!-- end about section -->
+  <!-- end book section -->
 
   <!-- footer section -->
   <footer class="footer_section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 footer-col">
-          <div class="footer_contact">
-            <h4>
-              Contact Us
-            </h4>
-            <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span>
-                  Location
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Call +01 1234567890
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span>
-                  demo@gmail.com
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 footer-col">
+        <div class="">
           <div class="footer_detail">
             <a href="" class="footer-logo">
-              Feane
+              <img src="images/Paquito-logo-blanco_2.png">
             </a>
             <p>
-              Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
+              Porque un bocata (¡El Paquito!) siempre es una excusa para compartir y para disfrutar de una gastronomía, la nuestra, infinita en su riqueza. Un bocata de cordero nacional sin más pretensión que hacerte un poquito más feliz.            
             </p>
             <div class="footer_social">
               <a href="">
@@ -175,29 +162,15 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 footer-col">
-          <h4>
-            Opening Hours
-          </h4>
-          <p>
-            Everyday
-          </p>
-          <p>
-            10.00 Am -10.00 Pm
-          </p>
-        </div>
       </div>
       <div class="footer-info">
         <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/">Free Html Templates</a><br><br>
-          &copy; <span id="displayYear"></span> Distributed By
-          <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+          &copy; <span id="displayYear"></span> Todos los derechos reservados | 
+          <a href="">El Paquito</a><br><br>
         </p>
       </div>
     </div>
-  </footer>
-  <!-- footer section -->
+  </footer>  <!-- footer section -->
 
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>

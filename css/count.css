@@ -1,0 +1,17 @@
+.counter p {
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+}
+
+.counter .caja {
+    border: 1px solid gray;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.counter {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+}

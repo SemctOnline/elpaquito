@@ -42,7 +42,7 @@
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <span>
               <img src="images/Paquito-logo-blanco.png">
             </span>
@@ -53,19 +53,19 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Encuentra tu bar</a>
+                <a class="nav-link" href="index.php">Encuentra tu bar</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="menu.html">Recetas de Paquito</a>
+                <a class="nav-link" href="recetas.php">Recetas de Paquito</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">¿Quieres ofrecer el Paquito en tu bar?</a>
+                <a class="nav-link" href="barpaquito.php">¿Quieres ofrecer el Paquito en tu bar?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="book.html">El Paquito en Redes Sociales</a>
+                <a class="nav-link" href="redes-sociales.php">El Paquito en Redes Sociales</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="book.html">Sobre nosotros</a>
+                <a class="nav-link" href="nosotros.php">Sobre nosotros</a>
               </li>
             </ul>
             <div class="user_option">
@@ -131,7 +131,7 @@
                     <p>
                       El Paquito es el nuevo bocadillo de moda; y es que queremos reivindicar el placer de comerse un bocata, porque eso del ‘finger food’ ya lo hacíamos nosotros en tantas barras de tantos bares castizos.                    </p>
                     <div class="btn-box">
-                      <a href="" class="btn1">
+                      <a href="recetas.php" class="btn1">
                         Leer mas 
                       </a>
                     </div>
@@ -151,7 +151,7 @@
                     <p>
                       Déjanos tus datos y nos pondremos en contacto.                    </p>
                     <div class="btn-box">
-                      <a href="" class="btn1">
+                      <a href="barpaquito.php" class="btn1">
                         Contactanos
                       </a>
                     </div>
@@ -346,146 +346,53 @@
           <div class="form_container">
             <form action="">
               <div>
-                <input type="text" class="form-control" placeholder="Your Name" />
+                <input type="text" class="form-control" placeholder="Nombres y apellidos" require />
               </div>
               <div>
-                <input type="text" class="form-control" placeholder="Phone Number" />
+                <input type="text" class="form-control" placeholder="Nombre del establecimiento" require />
               </div>
               <div>
-                <input type="email" class="form-control" placeholder="Your Email" />
+                <input type="email" class="form-control" placeholder="Email" require/>
               </div>
               <div>
-                <select class="form-control nice-select wide">
+                <input type="number" class="form-control" placeholder="Numero de Telefono" max="9" require />
+              </div>
+              <div>
+                <select class="form-control nice-select wide" require>
                   <option value="" disabled selected>
-                    How many persons?
+                    Provincia del establecimiento
                   </option>
-                  <option value="">
-                    2
-                  </option>
-                  <option value="">
-                    3
-                  </option>
-                  <option value="">
-                    4
-                  </option>
-                  <option value="">
-                    5
-                  </option>
+                  <option value="">Madrid</option>
+                  <option value="">Barcelona</option>
+                  <option value="">Ciudad Real</option>
+                  <option value="">Cordoba</option>
                 </select>
               </div>
-              <div>
-                <input type="date" class="form-control">
-              </div>
               <div class="btn_box">
-                <button>
-                  Book Now
-                </button>
+                <button>Enviar</button>
               </div>
             </form>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="map_container ">
-            <div id="googleMap"></div>
-          </div>
+        <iframe width="504" height="408" src="https://www.youtube.com/embed/_Iur2Gpay3g" title="Buscando a Paquito con Clara P. Villalón" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
     </div>
   </section>
   <!-- end book section -->
 
-  <!-- client section -->
-
-  <section class="client_section layout_padding-bottom">
-    <div class="container">
-      <div class="heading_container heading_center psudo_white_primary mb_45">
-        <h2>
-          What Says Our Customers
-        </h2>
-      </div>
-      <div class="carousel-wrap row ">
-        <div class="owl-carousel client_owl-carousel">
-          <div class="item">
-            <div class="box">
-              <div class="detail-box">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                </p>
-                <h6>
-                  Moana Michell
-                </h6>
-                <p>
-                  magna aliqua
-                </p>
-              </div>
-              <div class="img-box">
-                <img src="images/client1.jpg" alt="" class="box-img">
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="box">
-              <div class="detail-box">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-                </p>
-                <h6>
-                  Mike Hamell
-                </h6>
-                <p>
-                  magna aliqua
-                </p>
-              </div>
-              <div class="img-box">
-                <img src="images/client2.jpg" alt="" class="box-img">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end client section -->
-
   <!-- footer section -->
   <footer class="footer_section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 footer-col">
-          <div class="footer_contact">
-            <h4>
-              Contact Us
-            </h4>
-            <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span>
-                  Location
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Call +01 1234567890
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span>
-                  demo@gmail.com
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 footer-col">
+        <div class="">
           <div class="footer_detail">
             <a href="" class="footer-logo">
-              Feane
+              <img src="images/Paquito-logo-blanco_2.png">
             </a>
             <p>
-              Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
+              Porque un bocata (¡El Paquito!) siempre es una excusa para compartir y para disfrutar de una gastronomía, la nuestra, infinita en su riqueza. Un bocata de cordero nacional sin más pretensión que hacerte un poquito más feliz.            
             </p>
             <div class="footer_social">
               <a href="">
@@ -506,24 +413,11 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 footer-col">
-          <h4>
-            Opening Hours
-          </h4>
-          <p>
-            Everyday
-          </p>
-          <p>
-            10.00 Am -10.00 Pm
-          </p>
-        </div>
       </div>
       <div class="footer-info">
         <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/">Free Html Templates</a><br><br>
-          &copy; <span id="displayYear"></span> Distributed By
-          <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+          &copy; <span id="displayYear"></span> Todos los derechos reservados | 
+          <a href="">El Paquito</a><br><br>
         </p>
       </div>
     </div>

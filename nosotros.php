@@ -17,6 +17,7 @@
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="css/count.css" />
 
   <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -42,7 +43,7 @@
     <header class="header_section">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <span>
               <img src="images/Paquito-logo-blanco_2.png">
             </span>
@@ -52,20 +53,20 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mx-auto ">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Encuentra tu bar</a>
+            <li class="nav-item">
+                <a class="nav-link" href="index.php">Encuentra tu bar</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="menu.html">Recetas de Paquito</a>
+                <a class="nav-link" href="recetas.php">Recetas de Paquito</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="barpaquito.php">¿Quieres ofrecer el Paquito en tu bar?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="redes-sociales.php">El Paquito en Redes Sociales</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="about.html">¿Quieres ofrecer el Paquito en tu bar?</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="book.html">El Paquito en Redes Sociales</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="book.html">Sobre nosotros</a>
+                <a class="nav-link" href="nosotros.php">Sobre nosotros</a>
               </li>
             </ul>
             <div class="user_option">
@@ -83,104 +84,49 @@
   </div>
 
   <!-- book section -->
-  <section class="book_section layout_padding">
+  <section class="food_section layout_padding">
     <div class="container">
-      <div class="heading_container">
+      <div class="heading_container heading_center">
         <h2>
-          Book A Table
+          Sobre nosotros
         </h2>
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form_container">
-            <form action="">
-              <div>
-                <input type="text" class="form-control" placeholder="Your Name" />
-              </div>
-              <div>
-                <input type="text" class="form-control" placeholder="Phone Number" />
-              </div>
-              <div>
-                <input type="email" class="form-control" placeholder="Your Email" />
-              </div>
-              <div>
-                <select class="form-control nice-select wide">
-                  <option value="" disabled selected>
-                    How many persons?
-                  </option>
-                  <option value="">
-                    2
-                  </option>
-                  <option value="">
-                    3
-                  </option>
-                  <option value="">
-                    4
-                  </option>
-                  <option value="">
-                    5
-                  </option>
-                </select>
-              </div>
-              <div>
-                <input type="date" class="form-control">
-              </div>
-              <div class="btn_box">
-                <button>
-                  Book Now
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="map_container ">
-            <div id="googleMap"></div>
-          </div>
-        </div>
+      <div class="">
+      <p></p>
+      El Paquito es una campaña de INTEROVIC, la Interprofesional del Ovino y Caprino de Carne, que persigue tres objetivos:
+      <p></p>
+        1. Rejuvenecer el consumo de cordero llegando a nuevos públicos.
+        <p></p>
+        2. Ayudar a la hostelería a reactivar la demanda ante la situación de crisis que estamos viviendo.
+        <p></p>
+        3. Crear nuevos momentos de consumo del cordero al tiempo que se desestacionaliza la demanda.
+        <p></p>
+      Para ello, ya en 2019 creamos el PAQUITO, un bocadillo de cordero que en los últimos años hemos puesto de moda en Madrid, Barcelona, Valencia y Zamora entre bares, restaurantes, tabernas y casas de comida.​​
+      <p></p>
+      Logrando en nuestra última Ruta del Paquito de 2021…
+      <p></p>
+      Y este año, vamos con todo…​
+      <p></p>
+      Como el pepito, su pariente más próximo, el Paquito no necesita mucho para ser el centro de atención. Un buen pan, cordero y un poco de cariño a la hora de prepararlo. Puedes inspirarte en nuestra sección de recetas para hacerlo tuyo.
+      <p></p>
+      A cada establecimiento le facilitaremos material promocional para que tus clientes reconozcan la campaña de La Ruta del Paquito.
       </div>
     </div>
   </section>
+
   <!-- end book section -->
 
   <!-- footer section -->
   <footer class="footer_section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4 footer-col">
-          <div class="footer_contact">
-            <h4>
-              Contact Us
-            </h4>
-            <div class="contact_link_box">
-              <a href="">
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span>
-                  Location
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>
-                  Call +01 1234567890
-                </span>
-              </a>
-              <a href="">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span>
-                  demo@gmail.com
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 footer-col">
+        <div class="">
           <div class="footer_detail">
             <a href="" class="footer-logo">
-              Feane
+              <img src="images/Paquito-logo-blanco_2.png">
             </a>
             <p>
-              Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with
+              Porque un bocata (¡El Paquito!) siempre es una excusa para compartir y para disfrutar de una gastronomía, la nuestra, infinita en su riqueza. Un bocata de cordero nacional sin más pretensión que hacerte un poquito más feliz.            
             </p>
             <div class="footer_social">
               <a href="">
@@ -201,29 +147,15 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4 footer-col">
-          <h4>
-            Opening Hours
-          </h4>
-          <p>
-            Everyday
-          </p>
-          <p>
-            10.00 Am -10.00 Pm
-          </p>
-        </div>
       </div>
       <div class="footer-info">
         <p>
-          &copy; <span id="displayYear"></span> All Rights Reserved By
-          <a href="https://html.design/">Free Html Templates</a><br><br>
-          &copy; <span id="displayYear"></span> Distributed By
-          <a href="https://themewagon.com/" target="_blank">ThemeWagon</a>
+          &copy; <span id="displayYear"></span> Todos los derechos reservados | 
+          <a href="">El Paquito</a><br><br>
         </p>
       </div>
     </div>
-  </footer>
-  <!-- footer section -->
+  </footer>  <!-- footer section -->
 
   <!-- jQery -->
   <script src="js/jquery-3.4.1.min.js"></script>
@@ -241,6 +173,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
   <!-- custom js -->
   <script src="js/custom.js"></script>
+  <!-- count js -->
+    <script src="js/count.js"></script>
   <!-- Google Map -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
